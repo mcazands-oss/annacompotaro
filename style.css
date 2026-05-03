@@ -7,14 +7,14 @@
 }
 
 :root {
-  --bg: #0a0a0a;
-  --bg-mid: #111111;
-  --gold: #c9a96e;
-  --gold-light: #e8d5b0;
-  --text: #e8e0d5;
-  --text-dim: #9a9090;
-  --text-faint: #4a4545;
-  --white: #f5f0eb;
+  --bg: #fafaf8;
+  --bg-mid: #f0ebe3;
+  --gold: #a8823a;
+  --gold-light: #c9a96e;
+  --text: #1c1a16;
+  --text-dim: #5a5550;
+  --text-faint: #b0aaa5;
+  --white: #1c1a16;
 }
 
 html {
@@ -55,7 +55,7 @@ body::before {
 .ambient-1 {
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(201, 169, 110, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(168, 130, 58, 0.06) 0%, transparent 70%);
   top: -150px;
   right: -100px;
   animation-duration: 25s;
@@ -64,7 +64,7 @@ body::before {
 .ambient-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(100, 80, 60, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(168, 130, 58, 0.04) 0%, transparent 70%);
   bottom: -100px;
   left: -80px;
   animation-duration: 18s;
@@ -272,12 +272,12 @@ body::before {
 .notify-form {
   display: flex;
   gap: 0;
-  border: 1px solid rgba(201, 169, 110, 0.25);
+  border: 1px solid rgba(168, 130, 58, 0.3);
   transition: border-color 0.3s ease;
 }
 
 .notify-form:focus-within {
-  border-color: rgba(201, 169, 110, 0.6);
+  border-color: rgba(168, 130, 58, 0.7);
 }
 
 .notify-input {
@@ -302,7 +302,7 @@ body::before {
 .notify-btn {
   background: transparent;
   border: none;
-  border-left: 1px solid rgba(201, 169, 110, 0.25);
+  border-left: 1px solid rgba(168, 130, 58, 0.3);
   padding: 14px 22px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -316,11 +316,11 @@ body::before {
 }
 
 .notify-btn:hover {
-  background: rgba(201, 169, 110, 0.1);
+  background: rgba(168, 130, 58, 0.08);
 }
 
 .notify-btn:active {
-  background: rgba(201, 169, 110, 0.18);
+  background: rgba(168, 130, 58, 0.14);
 }
 
 .form-note {
