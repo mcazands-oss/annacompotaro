@@ -19,6 +19,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   font-weight: 300;
   min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
 }
 
 /* ── Grain overlay ── */
@@ -50,6 +52,8 @@ body::before {
   pointer-events: none;
   z-index: 0;
   animation: drift 20s ease-in-out infinite alternate;
+  will-change: transform;
+  max-width: 100vw;
 }
 
 .ambient-1 {
